@@ -33,8 +33,9 @@ Bracket Simulation
   R2–Championship: P matrix picks following actual bracket structure
      │
      ▼
-Phase 4 — Evaluation  [pending tournament completion]
+Phase 4 — Evaluation
   ESPN scoring: 10 / 20 / 40 / 80 / 160 / 320 pts per round
+  2026 result: 780 pts · 56.6th percentile · rank 11,982,535
 ```
 
 ## Setup
@@ -90,10 +91,13 @@ cache/                   — pickle cache for stats, model, schedule features
 
 ## 2026 Results
 
-| Round | Predicted Correct |
-|-------|------------------|
-| Round of 32 | — |
-| Sweet 16 | 10 / 16 |
-| Elite 8 | TBD |
-| Final Four | TBD |
-| Champion | TBD (Duke) |
+**Overall: 780 pts · 56.6th percentile · rank ~11.98M**
+
+| Round | Predicted Correct | Notes |
+|-------|------------------|-------|
+| Round of 32 | — | not tracked |
+| Sweet 16 | 10 / 16 | |
+| Elite 8 | 3 / 8 | Duke (our pick) lost to UConn 72–73 |
+| Final Four | 2 / 4 | Michigan and UConn correct; missed Illinois/Arizona |
+| Championship | correct matchup | Michigan vs UConn |
+| Champion | ✗ (predicted Duke) | **Michigan** won 69–63 over UConn |
