@@ -93,11 +93,23 @@ cache/                   — pickle cache for stats, model, schedule features
 
 **Overall: 780 pts · 56.6th percentile · rank ~11.98M**
 
+### Predicted bracket
+| Region | R1 winners | Regional winner |
+|--------|-----------|-----------------|
+| East | Duke, Ohio St., St. John's, Kansas, South Florida, North Dakota St., UCLA, UConn | **Duke** |
+| South | Florida, Iowa, McNeese, Nebraska, North Carolina, Illinois, Saint Mary's, Houston | **Houston** |
+| West | Arizona, Utah St., High Point, Arkansas, BYU, Gonzaga, Miami (FL), Purdue | **High Point** |
+| Midwest | Michigan, Saint Louis, Akron, Hofstra, Tennessee, Virginia, Santa Clara, Iowa St. | **Michigan** |
+
+Final Four: Duke vs High Point → **Duke** · Houston vs Michigan → **Michigan**
+Championship: Duke vs Michigan → **Duke** (champion)
+
+### Accuracy
 | Round | Predicted Correct | Notes |
 |-------|------------------|-------|
 | Round of 32 | — | not tracked |
 | Sweet 16 | 10 / 16 | |
-| Elite 8 | — | Duke (our pick) lost to UConn 72–73 |
-| Final Four | 1 / 4 | Michigan correct; Duke eliminated in E8 |
-| Championship | ✗ | predicted Duke, actual Michigan vs UConn |
+| Elite 8 | — | Duke lost to UConn 72–73; never reached F4 |
+| Final Four | 1 / 4 | Michigan ✓; Duke/High Point/Houston all wrong |
+| Championship | ✗ | predicted Duke vs Michigan, actual Michigan vs UConn |
 | Champion | ✗ (predicted Duke) | **Michigan** won 69–63 over UConn |
