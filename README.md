@@ -97,7 +97,7 @@ cache/                   — pickle cache for stats, model, schedule features
 |-------|------------------|-------|
 | Round of 32 | — | not tracked |
 | Sweet 16 | 10 / 16 | |
-| Elite 8 | 3 / 8 | Duke (our pick) lost to UConn 72–73 |
-| Final Four | 2 / 4 | Michigan and UConn correct; missed Illinois/Arizona |
-| Championship | correct matchup | Michigan vs UConn |
+| Elite 8 | — | Duke (our pick) lost to UConn 72–73 |
+| Final Four | 1 / 4 | Michigan correct; Duke eliminated in E8 |
+| Championship | ✗ | predicted Duke, actual Michigan vs UConn |
 | Champion | ✗ (predicted Duke) | **Michigan** won 69–63 over UConn |
