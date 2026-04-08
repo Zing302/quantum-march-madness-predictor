@@ -1,0 +1,28 @@
+# Cache — large API fetch results and trained model
+cache/
+
+# Bracket output (generated artifact)
+bracket.json
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+dist/
+build/
+
+# Environment
+.env
+*.env
+
+# macOS
+.DS_Store
+
+# IDE
+.vscode/
+.cursor/
+.claude/
+
+# Jupyter
+.ipynb_checkpoints/
